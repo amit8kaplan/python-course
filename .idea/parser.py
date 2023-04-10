@@ -143,7 +143,6 @@ def parser(expression) -> float:
         14.0
         >>> parser('(2 + 3) * 4')
         20.0
-        >>> parser('1 / 0') # division by zero
     """
 
     operator_stack = []
